@@ -10,8 +10,38 @@ CREATE TABLE store
 INSERT INTO store values
 (item_id,"category", "item_name", price, quantity);
 
+INSERT INTO store values (1,"knitwear", "Cotton Linen Ribbed Knit Polo", 180, 40);
+INSERT INTO store VALUES (2,"knitwear", 
+"Cotton and Silk Piqué Polo", 120.80, 21);
+INSERT INTO store VALUES (3,"knitwear", 
+"Polo shirt in Cotton Twist", 140, 34);
+INSERT INTO store values (4,"knitwear", "Cotton T-shirt Twist", 100, 24);
+INSERT INTO store VALUES (5,"jacket/blazer", 
+"Linen Shirt Jacket", 320, 70);
+INSERT INTO store VALUES (6,"jacket/blazer", 
+"Cable-Knit Cotton Jersey Jacket", 340, 50);
+INSERT INTO store VALUES (7,"jacket/blazer", 
+"Cashmere jersey jacket", 1100, 5);
+INSERT INTO store VALUES (8,"pants", 
+"Cropped Cotton Chino Pants", 110, 20);
+INSERT INTO store values (9,"knitwear", "Cotton Linen Ribbed Knit Polo", 180, 40);
+INSERT INTO store VALUES (10,"pants", 
+"Lightweight Chino Pants", 280, 21);
+INSERT INTO store VALUES (11,"pants", 
+"Ultrasoft Cashmere Pants", 440, 34);
+INSERT INTO store values (12,"pants", "Cotton Linen Cotton Chino Pants", 190, 24);
+INSERT INTO store VALUES (13,"shirt",
+"Linen Shirt", 220, 70);
+INSERT INTO store VALUES (14,"shirt",
+"Short-Sleeved Cotton and Silk Jersey", 210, 50);
+INSERT INTO store VALUES (15,"shirt",
+"Cotton and Silk Piqué Shirt", 200, 5);
+
+
 #By executing these SQL statements, you would create the "store" table and populate it with the provided data.
 
+# 3- Adding the line SELECT * FROM store; to the SQL code allows you to retrieve all the rows and columns from the "store" table. 
 
+SELECT * FROM store;
 
 
